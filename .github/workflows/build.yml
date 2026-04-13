@@ -23,7 +23,7 @@ jobs:
         run: pip install ufbt
 
       - name: Pin SDK to firmware 1.0.1
-        run: ufbt update --version=1.0.1
+        run: ufbt update --branch 1.0.1
 
       - name: Build FAP
         run: ufbt
