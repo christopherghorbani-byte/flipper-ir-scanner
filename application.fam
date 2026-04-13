@@ -1,0 +1,12 @@
+App(
+    appid="ir_scanner",
+    name="IR Scanner",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ir_scanner_app",
+    requires=["gui", "infrared"],
+    stack_size=2 * 1024,
+    fap_category="Misc",
+    fap_description="Scans and displays IR signals from remotes and other IR devices",
+    fap_version="1.0",
+    fap_author="christopherghorbani-byte",
+)
